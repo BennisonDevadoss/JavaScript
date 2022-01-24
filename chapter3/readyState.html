@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>DOM Content Loaded.</title>
+    <Script type="text/javascript">
+        function load() {
+            console.log("DOM Loaded.");
+        }
+
+        if (document.readyState == "Loading") {
+            document.addEventListner("DOMcontentLoaded", load);
+        } else {
+            load();
+        }
+    </Script>
+</head>
+
+<body></body>
+
+</html>
