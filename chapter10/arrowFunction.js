@@ -5,9 +5,8 @@ var number = 100;
 let Arrow_Function = (parameter) => { console.log(parameter * 2) }
 
 // Function call
-Arrow_Function(number); 
+Arrow_Function();
 
-
-// This program will give the output => 200
+// The above program will give the output  ==> 200. 
 
 
