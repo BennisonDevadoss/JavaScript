@@ -21,4 +21,3 @@ for (i = 0; i < a.length - 1; i++) {
     ++k;
 }
 console.log(b);
-
