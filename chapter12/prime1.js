@@ -14,6 +14,7 @@ function prime(number) {
                 if (i === 2) {
                     prime1[m] = i;
                     console.log(prime1[m]);
+                    break; 
                 }
                 l++
                 break;
