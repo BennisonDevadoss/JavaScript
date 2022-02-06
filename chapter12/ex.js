@@ -9,5 +9,3 @@ function b(a) {
 }
 
 console.log(b(2));
-
-
