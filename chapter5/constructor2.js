@@ -24,4 +24,9 @@ student1.fun1 = () => {
 
 console.log(student1);
 student1.fun();
-student1.fun1(); 
+student1.fun1();
+
+
+//Normal object
+let obj = { a: 2, b: 3 };
+console.log(obj); 
