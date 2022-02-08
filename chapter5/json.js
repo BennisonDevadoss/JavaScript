@@ -5,3 +5,7 @@ let json2 = '{ a : 1}';
 let json3 = "{'a' : 1}";
 let json4 = '{"a" : 1}'; //correct method
 let json5 = `{"a" : 1}`; //correct method 
+
+console.log(json1);
+
+console.log(json5);
