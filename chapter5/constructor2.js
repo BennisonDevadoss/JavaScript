@@ -32,13 +32,25 @@ let obj = { a: 2, b: 3 };
 console.log(obj);
 
 
-
+//.........................................................................................................
 //JavaScript also has built-in constructors. Some of them are:
 
 let a = new Object();    // A new Object object
 let b = new String();    // A new String object
-let c = new Number();    // A new Number object
+let c = new Number(1);    // A new Number object
 let d = new Boolean();   // A new Boolean object
 console.log(d);
 a.b = 10;       // add property to object a. 
-console.log(a); 
+console.log(a);
+
+console.log(c);
+c.property = 145;
+console.log(c);
+
+//........................................................................................................
+function fun() {
+
+}
+let st = new fun();
+
+console.log(typeof st); 
