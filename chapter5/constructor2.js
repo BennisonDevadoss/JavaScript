@@ -56,3 +56,4 @@ let st = new fun();
 
 console.log(typeof st);
 console.log(st); 
+
