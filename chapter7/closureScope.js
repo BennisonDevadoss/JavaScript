@@ -6,7 +6,6 @@ var plus = (function () {
         counter += 1;
         return counter;
     }
-    console.log("Bennison Devadoss")
 })();
 
 plus();

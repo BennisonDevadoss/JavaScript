@@ -11,7 +11,7 @@ function Person(person_name, person_age, person_gender) {
 
 
 const person1 = new Person("Bennison", 21, "male");
-const person2 = new Person("Brendon", "45", "male");
+const person2 = new Person("Brendon", 45, "male");
 
 
 //accessing property

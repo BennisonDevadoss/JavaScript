@@ -25,6 +25,12 @@ class Cat {
 // this.method();
 // method();
 
+let cat = new Cat()
+console.log(cat);
+cat.method()   //   ????   // The above console.log is not showing the function method into the object cat, But how the function method is accessed by the cat. 
+
+/// this function method is not in a cat property. 
+console.log(cat);
 
 
 
