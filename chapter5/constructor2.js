@@ -49,8 +49,10 @@ console.log(c);
 
 //........................................................................................................
 function fun() {
-
+    //    name  = 19;
+    this.names;
 }
 let st = new fun();
 
-console.log(typeof st); 
+console.log(typeof st);
+console.log(st); 
