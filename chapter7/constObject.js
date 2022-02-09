@@ -1,11 +1,11 @@
 const a = {
     property: 1,
-    method: func() {
+    method: function () {
         console.log("Hello World");
-}
+    }
 }
 
 // a = { somthing: 1}  this line will give error
 
 a.property = 2;
-A.method = () => { "!" }  // no error.
+a.method = () => { "!" }  // no error.
