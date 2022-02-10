@@ -10,7 +10,7 @@ function outer_function() {
         inner_function();
     }
 
-    first_innter_function();
+    first_inner_function();
 }
 
 outer_function();

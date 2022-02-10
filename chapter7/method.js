@@ -1,17 +1,17 @@
 class Detail {
 
-    constructor() {
-        this.prop = 1;
-        this.prop1 = 2;
-        this.prop2 = 3;
+    // constructor() {
+    prop = 1;
+    prop1 = 2;
+    prop2 = 3;
 
-        this.method = function (a, b) {
-            console.log(this);              // This this refers the Detail objects. 
-        }
-        this.method2 = () => {
-            console.log(this);
-        }
+    method = function (a, b) {
+        console.log(this);              // This this refers the Detail objects. 
     }
+    method2 = () => {
+        console.log(this);
+    }
+    // }
 
     //geter; 
     // get method2() {

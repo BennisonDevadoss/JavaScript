@@ -1,12 +1,12 @@
-var plus = (function () {
+var plus = function () {
     var counter = 0;
     console.log("Bennison")
-    console.log(plus);
+    // console.log(plus);
     return function () {
         counter += 1;
-        return counter;
+        console.log(counter);
     }
-})();
+}();
 
 plus();
 plus();
