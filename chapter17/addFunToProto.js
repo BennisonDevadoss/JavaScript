@@ -42,3 +42,8 @@ person1.method2 = () => {
 
 person1.method1();
 person1.method2();    // it will give the output "Bennison Devadoss" on chrome console.
+
+
+module.exports = { person1, person2 };    // Exports these objects to the file (requireImport.js)
+
+//module.expots is used to exports the function obj and array to other files. 
