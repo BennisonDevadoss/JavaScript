@@ -1,12 +1,12 @@
-// In javascript every array, object and function have Prototypes. 
-//Prototype chains ===> For example
-// a = [1, 2, 3, 4]
-//a.__proto__   -->    a.__proto__.__proto__  
-//This is prototype chain  The second one is equal to Array.prototype. 
-//  a.__proto__.__proto__.__proto__    // null
+/* In javascript every array, object and function have Prototypes. 
+Prototype chains ===> For example
+a = [1, 2, 3, 4]
+a.__proto__   -->    a.__proto__.__proto__  
+This is prototype chain  The second one is equal to Array.prototype. 
+ a.__proto__.__proto__.__proto__    // null
 
-// If i have a function fun()
-//fun.__proto__.__proto__ is equal to Function.prototype  
+If i have a function fun()
+fun.__proto__.__proto__ is equal to Function.prototype */
 
 
 let Detail = {
