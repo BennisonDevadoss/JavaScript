@@ -8,7 +8,6 @@ This is prototype chain  The second one is equal to Array.prototype.
 If i have a function fun()
 fun.__proto__.__proto__ is equal to Function.prototype */
 
-
 let Detail = {
     name: "Bennison",
     city: "tirunelveli",
