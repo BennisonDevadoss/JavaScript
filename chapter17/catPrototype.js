@@ -1,5 +1,5 @@
 const prototype = {
-    sleep(amout) {
+    sleep(amount) {
         this.state = "sleeping";
         console.log(`${this.name} is ${this.state}.`);
         this.energy += 1;
@@ -65,4 +65,5 @@ luna.eat(2);
 luna.wander();
 
 
-// This is better way...
+// This is better way...Because kitty and luna points the prototype(object)'s mehtods. 
+

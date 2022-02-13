@@ -6,7 +6,7 @@ cat.energy = 1;
 cat.state = "idle";
 
 // add function to cat object. 
-cat.sleep = function (amout) {
+cat.sleep = function (amount) {
     this.state = "sleeping";
     console.log(`${this.name} is ${this.state}.`);
     this.energy += 1;
@@ -41,5 +41,5 @@ cat.wander = function () {
     }
 }
 
-cat.sleep();
+cat.sleep(2);
 

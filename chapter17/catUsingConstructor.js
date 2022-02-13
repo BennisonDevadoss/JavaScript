@@ -8,7 +8,7 @@ function Cat(name, hunger, energy, state) {
     cat.state = state;
 
     // add function to cat object. 
-    cat.sleep = function (amout) {
+    cat.sleep = function (amount) {
         this.state = "sleeping";
         console.log(`${this.name} is ${this.state}.`);
         this.energy += 1;
@@ -57,4 +57,7 @@ kitty.wander();
 let luna = Cat("Luna", 8, 3, "idle");
 luna.sleep();
 luna.wander();
-luna.eat(1); 
+luna.eat(1);
+
+
+// kitty and luna alocated two different memory space. 

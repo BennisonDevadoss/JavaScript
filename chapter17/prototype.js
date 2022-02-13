@@ -21,12 +21,6 @@ console.log(person2.gender);     // these two constructor prints male.
 
 
 
-
-
-
-
-
-
 // Create owe Array.property.
 
 /* If you want to extend functionality of the Array method specifically, attach a
