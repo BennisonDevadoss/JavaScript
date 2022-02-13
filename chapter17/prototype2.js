@@ -22,6 +22,3 @@ obj.constructor    // ƒ Object() { [native code] }
 // When obj was created, obj.__proto__ connect to point to Object.prototype.
 
 // Object.prototype already created internally by javascript. 
-
-
-

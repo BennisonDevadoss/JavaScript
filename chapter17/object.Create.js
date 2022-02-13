@@ -1,5 +1,5 @@
 const prototype = {
-    sleep(amount) {
+    sleep() {
         this.state = "sleeping";
         console.log(`${this.name} is ${this.state}.`);
         this.energy += 1;
