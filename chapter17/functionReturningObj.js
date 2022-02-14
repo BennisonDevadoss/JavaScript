@@ -19,6 +19,5 @@ let person2 = Detail("Gibson Joseph", 21, "Tirunelveli");
 console.log(person1);
 console.log(person2);
 
-
 person1.method();
 person2.method(); 

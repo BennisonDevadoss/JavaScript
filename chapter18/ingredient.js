@@ -20,5 +20,6 @@ class Ingredient {
     static cheese = 6;
     static spice = 7;
 };
+// console.log(Ingredient.meat);
 
 module.exports = { Ingredient }; 
