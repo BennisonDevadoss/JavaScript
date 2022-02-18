@@ -22,7 +22,7 @@ class Student extends Detail {
 
 class Teacher extends Detail {
     constructor(name, age, classSize) {
-        super(name, age)
+        super(name, age)    // Super kwyword only used inside the constructor. 
         this.classSize = classSize;
     }
     display() {
