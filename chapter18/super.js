@@ -1,4 +1,4 @@
-class Detail {
+class Detail {                           // Inheritance. 
     constructor(names, ages) {
         this.name = names;
         this.age = ages;

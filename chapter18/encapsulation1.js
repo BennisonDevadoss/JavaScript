@@ -1,7 +1,7 @@
 class Detail {
-    constructor() {
-        var name;
-        var age;
+    constructor(name, age) {
+        var name = name;
+        var age = age;
     }
 
     setName(name) {
