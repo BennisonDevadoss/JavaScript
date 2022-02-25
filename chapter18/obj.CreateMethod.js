@@ -16,4 +16,4 @@ karthik.isStuding = true;
 // karthik.printIntroduction();
 
 console.log(coder);
-console.log(karthik.__proto__)
+console.log(karthik.__proto__);

@@ -9,7 +9,7 @@ class Animal {
         console.log(`${this.name} runs with speed ${this.speed}.`);
     }
 
-    static compare(animalA, animalB) {
+    static compare(animalA, animalB) {   // This compare function will be accessed by the Rabbit class. 
         return animalA - animalB;
     }
 }
@@ -25,6 +25,8 @@ let rabbit = [
     new Rabbit("Black Rabbit", 5)
 ];
 
+console.log(rabbit);    // Just print the array of objects. 
+
 rabbit.sort(Rabbit.compare);
 rabbit[0].run();    //White Rabbit runs with speed 10.
 rabbit[1].run();   //Black Rabbit runs with speed 5.
@@ -32,3 +34,6 @@ rabbit[1].run();   //Black Rabbit runs with speed 5.
 
 rabbit[0].hide();   // White Rabbit hides!
 rabbit[1].hide();   // Black Rabbit hides!
+
+Rabbit.compare();
+

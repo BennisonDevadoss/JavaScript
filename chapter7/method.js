@@ -6,7 +6,7 @@ class Detail {
     prop2 = 3;
 
     method = function (a, b) {
-        console.log(this);              // This this refers the Detail objects. 
+        console.log(this);              // This "this" refers the Detail objects. 
     }
     method2 = () => {
         console.log(this);

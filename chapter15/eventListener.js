@@ -1,5 +1,5 @@
 function eventListener() {
-    let calling = (event) => {
+    let calling = () => {
         console.log(this);
         console.log("Click event is called");
     }
