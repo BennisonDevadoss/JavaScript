@@ -1,0 +1,1 @@
+const json = { id: 1, name: "Bennison" }; 

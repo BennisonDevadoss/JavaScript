@@ -1,0 +1,1 @@
+promise = Promise.resolve("resolve value"); 

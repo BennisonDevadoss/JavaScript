@@ -8,7 +8,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 the flat method removes empty slots in arrays */
 const arr = [1, 2, 3, , , , , , 5];
 console.log(arr.length);
-arr.flat();
+arr.Flat();
 // [1, 2, 3, 5]
 
 
