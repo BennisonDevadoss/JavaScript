@@ -17,7 +17,7 @@ obj1.method();
 class Person {
     constructor(name, age) {
         this.name = name;
-        this.age = age;
+        this.age = age;s
     }
 }
 

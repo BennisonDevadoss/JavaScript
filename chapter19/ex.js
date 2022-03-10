@@ -54,8 +54,8 @@ console.log(newarr);
 
 //.............................method two......................................//
 console.log(".................................method two to find the LAN......................................");
-let newarr1 = [];
-newarr1 = obj.filter((value) => {
+// let newarr1 = [];
+const newarr1 = obj.filter((value) => {
     return value.type === "LAN";
 });
 
